@@ -9,7 +9,7 @@ const Navbar = () => {
     <div>
     <div>
     <Image
-            src="./bandera.png"
+            src="/Bandera.png"
             alt="Bandera de Colombia"
             width={350}
             height={95}
