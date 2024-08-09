@@ -7,6 +7,7 @@ const Navbar = () => {
 
   return (
     <div className="relative">
+      {/* Bandera en pantallas medianas y mayores */}
       <div className="absolute top-0 right-0 hidden md:block">
         <Image
           src="/Bandera.png"
@@ -17,7 +18,8 @@ const Navbar = () => {
         />
       </div>
 
-      <div className="flex items-center justify-between px-4 py-2 md:py-4 md:px-8">
+      {/* Contenedor del logo del gobierno */}
+      <div className="mx-auto px-4 py-2 md:py-4 md:px-8 flex items-center justify-between">
         <Image
           src="/Logo-Gov.co.png"
           alt="Logo Gov"
@@ -27,9 +29,11 @@ const Navbar = () => {
         />
       </div>
 
-      <nav className="bg-white text-white bg-opacity-20">
+      {/* Navbar con opciones */}
+      <nav className="bg-white text-white bg-opacity-15">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-between py-4">
+            {/* Logo Findeter */}
             <Image
               src="/Logo Findeter.png"
               alt="Logo Findeter"
@@ -39,7 +43,8 @@ const Navbar = () => {
               onClick={() => router.push("/")}
             />
 
-            <div className="flex flex-col md:flex-row items-center text-sm space-y-2 md:space-y-0 md:space-x-8">
+            {/* Enlaces de navegación */}
+            <div className="flex flex-col md:flex-row items-center text-sm space-y-2 md:space-y-0 md:space-x-8 cursor-pointer">
               <div className="hover:text-yellow-300 transition-colors duration-200">
                 <p>Sobre Findeter</p>
               </div>
