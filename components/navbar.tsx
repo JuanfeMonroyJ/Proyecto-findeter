@@ -27,7 +27,7 @@ const Navbar = () => {
         />
       </div>
 
-      <nav className="bg-blue-900 text-white bg-opacity-50">
+      <nav className="bg-white text-white bg-opacity-20">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-between py-4">
             <Image
@@ -62,7 +62,7 @@ const Navbar = () => {
                 <p>Acción responsable</p>
               </div>
               <div className="hover:text-yellow-300 transition-colors duration-200">
-                <p className="font-bold">Findeter a un clic</p>
+                <p className="font-bold text-xl">Findeter a un clic</p>
               </div>
             </div>
           </div>
