@@ -19,7 +19,7 @@ const Main = () => {
 
         <div className=" text-white flex flex-col items-center">
           <Image
-            src="/intro.png"
+            src="/Intro.png"
             alt="Saras introduction"
             width={624.56}
             height={465.05}
