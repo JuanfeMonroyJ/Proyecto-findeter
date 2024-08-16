@@ -93,9 +93,16 @@ const FormularioRegistro: React.FC = () => {
           className="max-w-[400px] md:max-w-[1196px] h-auto"
         />
         <div className="container mx-auto px-4 py-8 bg-gray-200 rounded-2xl shadow-md p-8">
-          <div className="bg-white rounded-2xl shadow-md p-8">
-            <h2 className="text-xl mb-10 flex items-center justify-center">INFORMACIÓN GENERAL DE REGISTRO</h2>
-            
+          <div className="bg-white rounded-2xl shadow-md p-8 ">
+            <div className="flex justify-center mb-10">
+          <Image
+            src="/generalRegistro.png"
+            alt="Isometric office illustration"
+            width={720}
+            height={36}
+            className="max-w-[400px] md:max-w-[720px] h-auto"
+          />
+          </div>
             <form onSubmit={handleSubmit}>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>

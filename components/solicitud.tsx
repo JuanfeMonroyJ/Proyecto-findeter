@@ -30,7 +30,7 @@ const Solicitud = () => {
             />
           </div>
           <div className="flex items-center justify-center mt-6">
-            <Link href="">
+            <Link href="/inversion">
             <Image
               src="/inversion.png"
               alt="Botón Inversion"
@@ -41,7 +41,7 @@ const Solicitud = () => {
             </Link>
           </div>
           <div className="flex items-center justify-center mt-6">
-          <Link href="">
+          <Link href="capital">
             <Image
               src="/capital.png"
               alt="Botón Capital"

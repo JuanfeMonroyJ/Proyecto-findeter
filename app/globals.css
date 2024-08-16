@@ -65,7 +65,7 @@
   }
   body {
     @apply bg-background text-foreground;
-    background: #0259D4;
+    background: #0147A2;
       background-image: url('/Trama.png');
       background-size: cover; /* Para que la imagen cubra todo el fondo */
       background-position: center; /* Centra la imagen */
