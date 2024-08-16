@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 
 
-const  formularioRegistro= () => {
+const  FormularioRegistro= () => {
     const router = useRouter();
   
     return (
@@ -26,5 +26,5 @@ const  formularioRegistro= () => {
     );
   };
   
-  export default formularioRegistro;
+  export default FormularioRegistro;
   
