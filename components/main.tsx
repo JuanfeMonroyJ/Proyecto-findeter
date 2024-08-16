@@ -17,7 +17,7 @@ const Main = () => {
           />
         </div>
 
-        <div className=" text-white flex flex-col items-center">
+        <div className="text-white flex flex-col items-center">
           <Image
             src="/Intro.png"
             alt="Saras introduction"
@@ -34,7 +34,7 @@ const Main = () => {
             <div className="flex flex-col items-start space-y-4">
               <button
                 className="bg-orange-400 text-white px-8 py-3 rounded-full text-xl font-semibold"
-                onClick={() => router.push("/login")}
+                onClick={() => router.push('/login')}
               >
                 Iniciar sesión
               </button>

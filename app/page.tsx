@@ -1,8 +1,10 @@
-import Image from "next/image";
+import React from 'react';
+import Main from '@/components/main';
 
-export default function Home() {
+export default function HomePage() {
   return (
-  <main>
-  </main>
+    <main>
+      <Main />
+    </main>
   );
 }
