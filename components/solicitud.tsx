@@ -2,6 +2,7 @@
 import React from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
+import Link from 'next/link';
 
 const Solicitud = () => {
   const router = useRouter();
@@ -25,6 +26,7 @@ const Solicitud = () => {
             </h2>
           </div>
           <div className="flex items-center justify-center mt-6">
+            <Link href="">
             <Image
               src="/inversion.png"
               alt="Botón Inversion"
@@ -32,8 +34,10 @@ const Solicitud = () => {
               height={77.36}
               className="w-full max-w-[599px] h-auto mb-10"
             />
+            </Link>
           </div>
           <div className="flex items-center justify-center mt-6">
+          <Link href="">
             <Image
               src="/capital.png"
               alt="Botón Capital"
@@ -41,6 +45,7 @@ const Solicitud = () => {
               height={77.36}
               className="w-full max-w-[599px] h-auto mt-10"
             />
+            </Link>
           </div>
           <div className="flex items-center justify-center mt-6">
             <Image
