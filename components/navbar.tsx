@@ -1,6 +1,7 @@
 "use client";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
+import Link from 'next/link';
 
 const Navbar = () => {
   const router = useRouter();
@@ -67,7 +68,9 @@ const Navbar = () => {
                 <p>Acción responsable</p>
               </div>
               <div className="hover:text-yellow-300 transition-colors duration-200">
-                <p className="font-bold text-xl">Findeter a un clic</p>
+                <Link href="/solicitud">
+                  <p className="font-bold text-xl">Findeter a un clic</p>
+                </Link>
               </div>
             </div>
           </div>
