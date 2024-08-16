@@ -63,7 +63,6 @@ const FormularioRegistro: React.FC = () => {
       isValid = false;
     }
 
-    // Phone validation (simple check for numbers only)
     const phoneRegex = /^\d+$/;
     if (formData.telefono && !phoneRegex.test(formData.telefono)) {
       newErrors.telefono = 'Teléfono inválido';

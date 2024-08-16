@@ -10,7 +10,7 @@ interface FormData {
   usoRecursos: string;
   valorCredito: string;
   actividadExclusion: string;
-  ciuuPrincipal: string; // Nuevo campo CIIU Principal
+  ciuuPrincipal: string;
 }
 
 const FormularioInversion: React.FC = () => {
@@ -21,7 +21,7 @@ const FormularioInversion: React.FC = () => {
     usoRecursos: "",
     valorCredito: "",
     actividadExclusion: "",
-    ciuuPrincipal: "" // Inicializar CIIU Principal
+    ciuuPrincipal: "" 
   });
 
   const [errors, setErrors] = useState<Partial<FormData>>({});
