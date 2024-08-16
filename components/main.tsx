@@ -1,6 +1,7 @@
 "use client";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
+import Link from 'next/link';
 
 const Main = () => {
   const router = useRouter();
@@ -38,9 +39,9 @@ const Main = () => {
               >
                 Iniciar sesión
               </button>
-              <a href="#" className="text-white underline">
+              <Link href="/registro" className="text-white underline">
                 ¿No tienes cuenta? Regístrate
-              </a>
+              </Link>
             </div>
           </div>
         </div>

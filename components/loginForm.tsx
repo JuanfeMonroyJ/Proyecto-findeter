@@ -2,6 +2,7 @@
 import React from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
+import Link from 'next/link';
 
 
 const LoginForm = () => {
@@ -66,9 +67,9 @@ const LoginForm = () => {
                   Inicia sesión
                 </button>
               </div>
-              <a href="#" className="underline text-center text-white">
+              <Link href="/registro" className="underline text-center text-white">
                 ¿No tienes cuenta? Regístrate
-              </a>
+              </Link>
             </form>
           </div>
           <div className="flex items-center justify-center mt-6">
