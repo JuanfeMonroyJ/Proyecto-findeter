@@ -40,4 +40,4 @@ jobs:
           aws-region: us-east-1
 
       - name: Deploy to S3
-        run: aws s3 sync ./out s3://${{ secrets.AWS_BUCKET_ID }}
+        run: aws s3 sync ./build s3://${{ secrets.AWS_BUCKET_ID }}
