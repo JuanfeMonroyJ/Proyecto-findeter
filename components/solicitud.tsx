@@ -21,9 +21,13 @@ const Solicitud = () => {
         </div>
         <div className="flex-1">
           <div className="p-6 rounded-lg max-w-md mx-auto md:max-w-[624.56px]">
-            <h2 className="text-2xl font-bold mb-6 text-gray-700 text-center text-white">
-              Selecciona el tipo de crédito que vas a solicitar 
-            </h2>
+          <Image
+              src="/seleccionaCredito.png"
+              alt="imagen con el texto Selecciona el tipo de crédito"
+              width={599}
+              height={77.36}
+              className="w-full max-w-[599px] h-auto mb-10"
+            />
           </div>
           <div className="flex items-center justify-center mt-6">
             <Link href="">

@@ -20,9 +20,13 @@ const LoginForm = () => {
         </div>
         <div className="flex-1">
           <div className="p-6 rounded-lg max-w-md mx-auto md:max-w-[624.56px]">
-            <h2 className="text-2xl font-bold mb-6 text-gray-700 text-center text-white">
-              Iniciar Sesión
-            </h2>
+          <Image
+              src="/iniciaSesion.png"
+              alt="imagen con el texto Selecciona el tipo de crédito"
+              width={599}
+              height={77.36}
+              className="w-full max-w-[599px] h-auto mb-10"
+            />
             <form className="flex flex-col space-y-6">
               <div className="flex flex-col items-center w-full">
                 <label
